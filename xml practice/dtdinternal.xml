@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mail [
+<!ELEMENT mail (from, to, message)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+]>
+
+<mail>
+    <from>Syed Waleed</from>
+    <to>Urooj</to>
+    <message>lets Meet</message>
+</mail>

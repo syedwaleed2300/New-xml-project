@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student [
+    <!ELEMENT student (#PCDATA|name|class|age|section|quality)*>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT class (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT section (#PCDATA)>
+    <!ELEMENT quality (#PCDATA)>
+]>
+<student>
+    <name>waleed</name>
+    <name>Arika</name>
+    <class>10</class>
+    <age>18</age>
+    <section>b</section>
+    <section>b</section>
+    <section>b</section>
+
+    <quality>Premium</quality>
+    <quality>Premium</quality>
+    <quality>Premium</quality>
+    <quality>Premium</quality>
+    <quality>Premium</quality>
+
+</student>

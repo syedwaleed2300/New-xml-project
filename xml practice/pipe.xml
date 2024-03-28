@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student [
+    <!ELEMENT student (name,(class|standard),age,section)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT class (#PCDATA)>
+    <!ELEMENT standard (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT section (#PCDATA)>
+]>
+<student>
+    <name>waleed</name>
+    <class>10</class>
+    <!-- <standard>5th</standard> -->
+    <age>18</age>
+    <section>b</section>
+</student>
